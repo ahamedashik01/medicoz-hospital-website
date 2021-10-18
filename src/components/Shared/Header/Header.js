@@ -1,21 +1,22 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import "./Header.css"
 
 const Header = () => {
     return (
         <div className="secondary-color">
             <div>
-                <div className="container py-2 border-top border-5 d-flex border-info block ">
+                <div className="container py-2 border-top border-5 d-flex border-info ">
                     <div className="d-flex justify-content-center align-items-center me-5">
-                        <i className="secondary-color fs-1 me-3 fas fa-map-marker-alt"></i>
-                        <div>
+                        <i className="block secondary-color fs-1 me-3 fas fa-map-marker-alt"></i>
+                        <div className="block">
                             <small className="text-color">234 Islampur, <br /> Dhamrai,
                                 Dhaka, Bd</small>
                         </div>
                     </div>
                     <div className="d-flex justify-content-center align-items-center">
-                        <i className="secondary-color far fa-clock fs-1 me-3"></i>
-                        <div>
+                        <i className="block secondary-color far fa-clock fs-1 me-3"></i>
+                        <div className="block">
                             <small className="text-color">Mon - Sat 8.00 - 18.00.<br />
                                 Sunday CLOSED</small>
                         </div>

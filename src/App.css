@@ -39,6 +39,25 @@
 
 }
 
+.pricing{
+  background-image: url("https://image.freepik.com/free-vector/abstract-background-with-squares_23-2148995948.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Price-card{
+  transition: 0.8s;
+}
+
+
+.Price-card:hover{
+  transform: scale(1.1);
+}
+
+.price{
+  background-color: #31d2f23f;
+}
+
 
 @media only screen and (max-width: 768px) {
   .block{

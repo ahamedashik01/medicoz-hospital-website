@@ -4,7 +4,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 const Quality = () => {
     return (
         <div className="my-5 py-5 quality">
-            <Container>
+            <Container className="my-5 pb-5">
                 <Row>
                     <Col sm={12} md={6}>
                         <div className="text-start">

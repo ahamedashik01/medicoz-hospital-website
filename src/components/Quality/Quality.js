@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 
 const Quality = () => {
     return (
-        <div className="my-5 py-5">
+        <div className="my-5 py-5 quality">
             <Container>
                 <Row>
                     <Col sm={12} md={6}>
@@ -63,12 +63,54 @@ const Quality = () => {
                         </div>
                     </Col>
                     <Col sm={12} md={6}>
-                        <div className="img-fluid mt-5 pt-5">
-                            <img src="http://ary-themes.com/html/bold_touch/medicoz/images/resource/image-5.jpg" alt="" />
+                        <div className=" mt-5 pt-5">
+                            <img className="img-fluid" src="http://ary-themes.com/html/bold_touch/medicoz/images/resource/image-5.jpg" alt="" />
                         </div>
                     </Col>
                 </Row>
             </Container>
+            <div className="mt-5 p-5 shadow-lg">
+                <Container>
+                    <Row className="g-5">
+                        <Col sm={12} md={3}>
+                            <div>
+                                <div className="mb-3">
+                                    <i className="text-info fs-1 fas fa-user-nurse"></i>
+                                </div>
+                                <h6>Years of Experience</h6>
+                                <h1>25</h1>
+                            </div>
+                        </Col>
+                        <Col sm={12} md={3}>
+                            <div>
+                                <div className="mb-3">
+                                    <i className="text-info fs-1 fas fa-users"></i>
+                                </div>
+                                <h6>Clinic Spesialities</h6>
+                                <h1>470</h1>
+                            </div>
+                        </Col>
+                        <Col sm={12} md={3}>
+                            <div>
+                                <div className="mb-3">
+                                    <i className="text-info fs-1 far fa-hospital"></i>
+                                </div>
+                                <h6>Medical Spesialities</h6>
+                                <h1>689</h1>
+                            </div>
+                        </Col>
+                        <Col sm={12} md={3}>
+                            <div>
+                                <div className="mb-3">
+                                    <i className="text-info fs-1 fas fa-smile-beam"></i>
+                                </div>
+                                <h6>Happy Patients</h6>
+                                <h1>9036</h1>
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
+            </div>
         </div>
     );
 };

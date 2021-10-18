@@ -17,6 +17,12 @@
   color:#03425B;
 }
 
+
+.quality{
+  background-image: url("https://image.freepik.com/free-vector/abstract-background-with-squares_23-2148995948.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .icon{
   color: #31D2F2;
 }

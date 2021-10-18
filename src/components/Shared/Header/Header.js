@@ -6,14 +6,14 @@ const Header = () => {
         <div className="secondary-color">
             <div>
                 <div className="container py-2 border-top border-5 d-flex border-info block ">
-                    <div className="d-flex me-5">
+                    <div className="d-flex justify-content-center align-items-center me-5">
                         <i className="secondary-color fs-1 me-3 fas fa-map-marker-alt"></i>
                         <div>
                             <small className="text-color">234 Islampur, <br /> Dhamrai,
                                 Dhaka, Bd</small>
                         </div>
                     </div>
-                    <div className="d-flex">
+                    <div className="d-flex justify-content-center align-items-center">
                         <i className="secondary-color far fa-clock fs-1 me-3"></i>
                         <div>
                             <small className="text-color">Mon - Sat 8.00 - 18.00.<br />

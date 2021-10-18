@@ -17,6 +17,22 @@
   color:#03425B;
 }
 
+.icon{
+  color: #31D2F2;
+}
+.h-card{
+  transition: 0.5s;
+}
+.h-card:hover{
+  background-color: #31D2F2;
+  color: white;
+  box-shadow: 5px 5px 20px rgb(51, 51, 51);
+}
+.h-card:hover .icon{
+  color: #fff;
+
+}
+
 
 @media only screen and (max-width: 768px) {
   .block{

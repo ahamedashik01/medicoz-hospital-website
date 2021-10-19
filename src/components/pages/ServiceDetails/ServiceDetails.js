@@ -20,7 +20,7 @@ const ServiceDetails = () => {
         <div className="my-5 py-5 ">
             <Container>
                 <Row>
-                    <Col sm={12} md={3}>
+                    <Col sm={12} md={3} className="mb-5">
                         <div className="text-start shadow p-4">
                             <h6 className="pt-4">Quick Contact</h6>
                             <h3 className="mt-3">Get Soluiton</h3>

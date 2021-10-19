@@ -2,84 +2,84 @@
     {
         "id": 1,
         "name": "Hand Sanitizer",
-        "img": "http://ary-themes.com/html/bold_touch/medicoz/images/resource/products/1.jpg",
+        "img": "https://i.ibb.co/3kGDpJt/1.jpg",
         "price": 12,
         "rating": 4
     },
     {
         "id": 2,
         "name": "Liquid Sanitizer",
-        "img": "http://ary-themes.com/html/bold_touch/medicoz/images/resource/products/2.jpg",
+        "img": "https://i.ibb.co/j55jtxL/2.jpg",
         "price": 25,
         "rating": 4
     },
     {
         "id": 3,
         "name": "Sanitizer Gel",
-        "img": "http://ary-themes.com/html/bold_touch/medicoz/images/resource/products/3.jpg",
+        "img": "https://i.ibb.co/q0ZbXTF/3.jpg",
         "price": 16,
         "rating": 4
     },
     {
         "id": 4,
         "name": "Vitamin D3",
-        "img": "http://ary-themes.com/html/bold_touch/medicoz/images/resource/products/4.jpg",
+        "img": "https://i.ibb.co/BtX6ggp/4.jpg",
         "price": 17,
         "rating": 4
     },
     {
         "id": 5,
         "name": "Vitamin B2",
-        "img": "http://ary-themes.com/html/bold_touch/medicoz/images/resource/products/5.jpg",
+        "img": "https://i.ibb.co/GHByg21/5.jpg",
         "price": 22,
         "rating": 4
     },
     {
         "id": 6,
         "name": "Vitamin C+",
-        "img": "http://ary-themes.com/html/bold_touch/medicoz/images/resource/products/6.jpg",
+        "img": "https://i.ibb.co/ZWHxKJy/6.jpg",
         "price": 18,
         "rating": 4
     },
     {
         "id": 7,
         "name": "Dental Instruments",
-        "img": "http://ary-themes.com/html/bold_touch/medicoz/images/resource/products/7.jpg",
+        "img": "https://i.ibb.co/bL9Nmj4/7.jpg",
         "price": 16,
         "rating": 4
     },
     {
         "id": 8,
         "name": "First Aid Kit",
-        "img": "http://ary-themes.com/html/bold_touch/medicoz/images/resource/products/8.jpg",
+        "img": "https://i.ibb.co/7NvWbGn/8.jpg",
         "price": 14,
         "rating": 4
     },
     {
         "id": 9,
         "name": "Classic Stethoscope",
-        "img": "http://ary-themes.com/html/bold_touch/medicoz/images/resource/products/9.jpg",
+        "img": "https://i.ibb.co/8MNsSjP/9.jpg",
         "price": 25,
         "rating": 4
     },
     {
         "id": 10,
         "name": "Zinc Tablet",
-        "img": "http://ary-themes.com/html/bold_touch/medicoz/images/resource/products/10.jpg",
+        "img": "https://i.ibb.co/wQYCT74/10.jpg",
         "price": 16.8,
         "rating": 4
     },
     {
         "id": 11,
         "name": "Iron Tablet",
-        "img": "http://ary-themes.com/html/bold_touch/medicoz/images/resource/products/11.jpg",
+        "img": "https://i.ibb.co/BKPWYsK/11.jpg",
         "price": 14,
         "rating": 4
     },
     {
         "id": 12,
         "name": "Folic Acid",
-        "img": "http://ary-themes.com/html/bold_touch/medicoz/images/resource/products/12.jpg",
+        "img": "https://i.ibb.co/p3vKqK0/12.jpg",
         "price": 25,
         "rating": 4
     }

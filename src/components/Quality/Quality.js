@@ -64,7 +64,7 @@ const Quality = () => {
                     </Col>
                     <Col sm={12} md={6}>
                         <div className=" mt-5 pt-5">
-                            <img className="img-fluid" src="http://ary-themes.com/html/bold_touch/medicoz/images/resource/image-5.jpg" alt="" />
+                            <img className="img-fluid" src="https://i.ibb.co/608SWJ2/image-5.jpg" alt="" />
                         </div>
                     </Col>
                 </Row>

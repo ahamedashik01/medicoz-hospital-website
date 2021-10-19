@@ -16,4 +16,4 @@ A Healtcare related SPA (single page application), what can be used to be satisf
 - Dynamic Route Inculded.
 
 ### Live site
-Visit Medicoz here : [https://medicoz-clinic-and-hospital.firebaseapp.com/](https://medicoz-clinic-and-hospital.firebaseapp.com/)
+Visit Medicoz here : [https://medicoz-clinic-and-hospital.web.app/](https://medicoz-clinic-and-hospital.web.app/)

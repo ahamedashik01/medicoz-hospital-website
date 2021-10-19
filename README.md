@@ -1,6 +1,6 @@
 
 # Medicoz | Clinic & Hospital
-A Healtcare related SPA (single page application), what can be used to be satisfy both client and user. Used Firebase Authentication For private Route.
+A Healtcare related Fully Mobile Responsive SPA (single page application), what can be used to be satisfy both client and user. Used Firebase Authentication For private Route.
 
 ## Why Medicoz ?
 - Easy to use.
@@ -14,6 +14,7 @@ A Healtcare related SPA (single page application), what can be used to be satisf
 - Google Sign Up Supported.
 - One click Login Logout system.
 - Dynamic Route Inculded.
+- Fully Mobile Responsive.
 
 ### Live site
 Visit Medicoz here : [https://medicoz-clinic-and-hospital.web.app/](https://medicoz-clinic-and-hospital.web.app/)

@@ -17,6 +17,8 @@
   color:#03425B;
 }
 
+
+/* form  */
 .login-form{
   display: flex;
   justify-content: center;
@@ -34,18 +36,13 @@
 }
 
 
-
-
-.bg-btn{
-  background-color: #03425B;
-}
-
-
+/* user */
 .user img{
   height: 50px;
   width: 50px;
   border-radius: 50%;
 }
+
 
 .quality{
   background-image: url("https://image.freepik.com/free-vector/abstract-background-with-squares_23-2148995948.jpg");
@@ -101,6 +98,9 @@
 .footer{
   background-color:#187EAE ;
 }
+
+
+/* responsive behaviour */
 @media only screen and (max-width: 768px) {
   .block{
     display: none;

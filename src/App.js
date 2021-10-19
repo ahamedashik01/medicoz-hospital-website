@@ -3,6 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Shared/Header/Header';
 import Home from './components/pages/Home/Home';
+import ServiceDetails from './components/pages/ServiceDetails/ServiceDetails';
 
 
 function App() {
@@ -13,6 +14,12 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Home></Home>
+          </Route>
+          <Route exact path="/home">
+            <Home></Home>
+          </Route>
+          <Route path="/service/:id">
+            <ServiceDetails></ServiceDetails>
           </Route>
         </Switch>
       </Router>

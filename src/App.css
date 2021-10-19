@@ -57,7 +57,16 @@
 .price{
   background-color: #31d2f23f;
 }
+.service-card-img {
+  overflow: hidden;
+}
+.service-card-img img{
+  transition: 0.8s;
+}
 
+.service-card-img:hover img{
+  transform: scale(1.2);
+}
 
 @media only screen and (max-width: 768px) {
   .block{

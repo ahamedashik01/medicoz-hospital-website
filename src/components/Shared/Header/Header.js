@@ -36,7 +36,7 @@ const Header = () => {
                             <div className="d-flex p-3 user-div justify-content-end align-items-center" >
                                 <div className="me-3">
                                     {
-                                        user.uid &&
+                                        !userImg &&
                                         <div className="user">
                                             <h6>id: {user.uid}</h6>
                                         </div>

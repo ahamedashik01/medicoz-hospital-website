@@ -20,7 +20,7 @@ const Footer = () => {
                         </div>
                     </Col>
                     <Col sm={12} md={3}>
-                        <div className="text-start">
+                        <div className="text-start departments">
                             <h3 className="text-white">Departments</h3>
                             <ul className="list-unstyled mt-3 text-white text-start">
                                 <li className="mb-2">Surgery & Radiology</li>
@@ -33,7 +33,7 @@ const Footer = () => {
                         </div>
                     </Col>
                     <Col sm={12} md={3}>
-                        <div className="text-start text-white p-4">
+                        <div className="text-start text-white p-4 contact">
                             <div className="text-start d-flex justify-content-center align-items-center">
                                 <i className="secondary-color fs-1 me-3 fas fa-map-marker-alt"></i>
                                 <div>

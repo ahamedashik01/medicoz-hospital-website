@@ -16,7 +16,7 @@ const ServiceDetails = () => {
     // const { title, detailImg, detailDes, conditions } = found;
 
     return (
-        <div className="mt-5">
+        <div className="my-5 py-5 ">
             <Container>
                 <Row>
                     <Col sm={12} md={3}>

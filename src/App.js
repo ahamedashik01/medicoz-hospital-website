@@ -5,6 +5,7 @@ import Header from './components/Shared/Header/Header';
 import Home from './components/pages/Home/Home';
 import ServiceDetails from './components/pages/ServiceDetails/ServiceDetails';
 import Footer from './components/Shared/Footer/Footer';
+import NotFound from './components/pages/NotFound/NotFound';
 
 
 function App() {
@@ -21,6 +22,9 @@ function App() {
           </Route>
           <Route path="/service/:id">
             <ServiceDetails></ServiceDetails>
+          </Route>
+          <Route path="*">
+            <NotFound></NotFound>
           </Route>
         </Switch>
         <Footer></Footer>

@@ -24,16 +24,16 @@ const Pricing = () => {
                                     </thead>
                                     <tbody className="text-start">
                                         <tr>
-                                            <td><i class="text-info fas fa-check my-3 me-3"></i> Functional Diagnotics</td>
+                                            <td><i className="text-info fas fa-check my-3 me-3"></i> Functional Diagnotics</td>
                                         </tr>
                                         <tr>
-                                            <td><i class="text-info fas fa-check my-3 me-3"></i> Allergens Drugs</td>
+                                            <td><i className="text-info fas fa-check my-3 me-3"></i> Allergens Drugs</td>
                                         </tr>
                                         <tr>
-                                            <td><i class="text-info fas fa-check my-3 me-3"></i> Pollen Allergens</td>
+                                            <td><i className="text-info fas fa-check my-3 me-3"></i> Pollen Allergens</td>
                                         </tr>
                                         <tr>
-                                            <td><i class="text-info fas fa-check my-3 me-3"></i> Food Allergens</td>
+                                            <td><i className="text-info fas fa-check my-3 me-3"></i> Food Allergens</td>
                                         </tr>
                                     </tbody>
                                 </Table>
@@ -56,16 +56,16 @@ const Pricing = () => {
                                     </thead>
                                     <tbody className="text-start">
                                         <tr>
-                                            <td><i class="text-info fas fa-check my-3 me-3"></i> Tooth implantation</td>
+                                            <td><i className="text-info fas fa-check my-3 me-3"></i> Tooth implantation</td>
                                         </tr>
                                         <tr>
-                                            <td><i class="text-info fas fa-check my-3 me-3"></i> Lase Dentistry</td>
+                                            <td><i className="text-info fas fa-check my-3 me-3"></i> Lase Dentistry</td>
                                         </tr>
                                         <tr>
-                                            <td><i class="text-info fas fa-check my-3 me-3"></i> Tests and Treatmen</td>
+                                            <td><i className="text-info fas fa-check my-3 me-3"></i> Tests and Treatmen</td>
                                         </tr>
                                         <tr>
-                                            <td><i class="text-info fas fa-check my-3 me-3"></i> Medical Consultation</td>
+                                            <td><i className="text-info fas fa-check my-3 me-3"></i> Medical Consultation</td>
                                         </tr>
                                     </tbody>
                                 </Table>
@@ -88,16 +88,16 @@ const Pricing = () => {
                                     </thead>
                                     <tbody className="text-start">
                                         <tr>
-                                            <td><i class="text-info fas fa-check my-3 me-3"></i> Tests and Treatment</td>
+                                            <td><i className="text-info fas fa-check my-3 me-3"></i> Tests and Treatment</td>
                                         </tr>
                                         <tr>
-                                            <td><i class="text-info fas fa-check my-3 me-3"></i> Tests and Treatment</td>
+                                            <td><i className="text-info fas fa-check my-3 me-3"></i> Tests and Treatment</td>
                                         </tr>
                                         <tr>
-                                            <td><i class="text-info fas fa-check my-3 me-3"></i> Laboratory Services</td>
+                                            <td><i className="text-info fas fa-check my-3 me-3"></i> Laboratory Services</td>
                                         </tr>
                                         <tr>
-                                            <td><i class="text-info fas fa-check my-3 me-3"></i> Food Allergens</td>
+                                            <td><i className="text-info fas fa-check my-3 me-3"></i> Food Allergens</td>
                                         </tr>
                                     </tbody>
                                 </Table>
@@ -120,16 +120,16 @@ const Pricing = () => {
                                     </thead>
                                     <tbody className="text-start">
                                         <tr>
-                                            <td><i class="text-info fas fa-check my-3 me-3"></i> Blood Test Service</td>
+                                            <td><i className="text-info fas fa-check my-3 me-3"></i> Blood Test Service</td>
                                         </tr>
                                         <tr>
-                                            <td><i class="text-info fas fa-check my-3 me-3"></i> Safety Training Tips</td>
+                                            <td><i className="text-info fas fa-check my-3 me-3"></i> Safety Training Tips</td>
                                         </tr>
                                         <tr>
-                                            <td><i class="text-info fas fa-check my-3 me-3"></i> Tests and Treatment</td>
+                                            <td><i className="text-info fas fa-check my-3 me-3"></i> Tests and Treatment</td>
                                         </tr>
                                         <tr>
-                                            <td><i class="text-info fas fa-check my-3 me-3"></i> Food Allergens</td>
+                                            <td><i className="text-info fas fa-check my-3 me-3"></i> Food Allergens</td>
                                         </tr>
                                     </tbody>
                                 </Table>

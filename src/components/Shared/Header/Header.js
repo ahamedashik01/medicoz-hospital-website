@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import "./Header.css"
 
 const Header = () => {
@@ -25,7 +26,9 @@ const Header = () => {
             </div>
             <Navbar className="py-3 primary-color-bg" sticky="top" collapseOnSelect expand="lg" variant="dark">
                 <Container>
-                    <Navbar.Brand className="fs-3 fw-bold" href="#home"><i className="fas fa-clinic-medical"></i> Medicoz</Navbar.Brand>
+                    <Link className="text-decoration-none" to="/home">
+                        <Navbar.Brand className="fs-3 fw-bold" href="#home"><i className="fas fa-clinic-medical"></i> Medicoz</Navbar.Brand>
+                    </Link>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ms-auto">

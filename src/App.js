@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Shared/Header/Header';
 import Home from './components/pages/Home/Home';
 import ServiceDetails from './components/pages/ServiceDetails/ServiceDetails';
+import Footer from './components/Shared/Footer/Footer';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
             <ServiceDetails></ServiceDetails>
           </Route>
         </Switch>
+        <Footer></Footer>
       </Router>
     </div>
   );

@@ -68,6 +68,10 @@
   transform: scale(1.2);
 }
 
+
+.footer{
+  background-color:#187EAE ;
+}
 @media only screen and (max-width: 768px) {
   .block{
     display: none;

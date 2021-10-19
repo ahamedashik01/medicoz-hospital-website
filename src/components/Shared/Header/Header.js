@@ -1,14 +1,14 @@
 import React from 'react';
 import { Col, Container, Nav, Navbar, Row } from 'react-bootstrap';
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { NavHashLink } from 'react-router-hash-link';
 import useAuth from '../../../hooks/useAuth';
 import "./Header.css"
 
 const Header = () => {
     const { user, logOut } = useAuth();
+
     const userImg = user.photoURL;
-    console.log(user)
     return (
         <div className="secondary-color">
             <div >
@@ -36,7 +36,15 @@ const Header = () => {
                             <div className="d-flex p-3 user-div justify-content-end align-items-center" >
                                 <div className="me-3">
                                     {
-                                        user.email &&
+                                        user.uid &&
+                                        <div className="user">
+                                            <h6>id: {user.uid}</h6>
+                                        </div>
+                                    }
+                                </div>
+                                <div className="me-3">
+                                    {
+                                        userImg &&
                                         <div className="user">
                                             <img src={userImg} alt="" />
                                         </div>

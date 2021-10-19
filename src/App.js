@@ -12,6 +12,7 @@ import AuthProvider from './contexts/AuthProvider';
 import Register from './components/pages/Login/Register/Register';
 import About from './components/pages/About/About';
 import Contact from './components/pages/Contact/Contact';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 
 
 
@@ -28,18 +29,18 @@ function App() {
             <Route path="/home">
               <Home></Home>
             </Route>
-            <Route path="/service/:id">
+            <PrivateRoute path="/service/:id">
               <ServiceDetails></ServiceDetails>
-            </Route>
+            </PrivateRoute>
             <Route path="/about">
               <About></About>
             </Route>
             <Route path="/contact">
               <Contact></Contact>
             </Route>
-            <Route path="/pharmacy">
+            <PrivateRoute path="/pharmacy">
               <Pharmacy></Pharmacy>
-            </Route>
+            </PrivateRoute>
             <Route path="/login">
               <Login></Login>
             </Route>

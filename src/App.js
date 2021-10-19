@@ -10,6 +10,9 @@ import Pharmacy from './components/pages/Pharmacy/Pharmacy';
 import Login from './components/pages/Login/Login/Login';
 import AuthProvider from './contexts/AuthProvider';
 import Register from './components/pages/Login/Register/Register';
+import About from './components/pages/About/About';
+import Contact from './components/pages/Contact/Contact';
+
 
 
 function App() {
@@ -27,6 +30,12 @@ function App() {
             </Route>
             <Route path="/service/:id">
               <ServiceDetails></ServiceDetails>
+            </Route>
+            <Route path="/about">
+              <About></About>
+            </Route>
+            <Route path="/contact">
+              <Contact></Contact>
             </Route>
             <Route path="/pharmacy">
               <Pharmacy></Pharmacy>

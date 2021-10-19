@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import { useParams } from 'react-router';
 
 const ServiceDetails = () => {
@@ -24,7 +25,7 @@ const ServiceDetails = () => {
                             <h6 className="pt-4">Quick Contact</h6>
                             <h3 className="mt-3">Get Soluiton</h3>
                             <p>Contact us at the Medicoz office nearest to you or submit a business inquiry online. </p>
-                            <button className="btn btn-info text-white px-4">Contact</button>
+                            <Link to="/contact"><button className="btn btn-info text-white px-4">Contact</button></Link>
                         </div>
                     </Col>
                     <Col sm={12} md={9}>

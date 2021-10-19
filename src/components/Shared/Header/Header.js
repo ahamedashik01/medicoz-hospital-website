@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col, Container, Nav, Navbar, Row } from 'react-bootstrap';
 import { Link, NavLink } from 'react-router-dom';
+import { NavHashLink } from 'react-router-hash-link';
 import useAuth from '../../../hooks/useAuth';
 import "./Header.css"
 
@@ -61,13 +62,15 @@ const Header = () => {
             <Navbar className="py-3 primary-color-bg" sticky="top" collapseOnSelect expand="lg" variant="dark">
                 <Container>
                     <Link className="text-decoration-none" to="/home">
-                        <Navbar.Brand className="fs-3 fw-bold" href="#home"><i className="fas fa-clinic-medical"></i> Medicoz</Navbar.Brand>
+                        <Navbar.Brand className="fs-3 fw-bold"><i className="fas fa-clinic-medical"></i> Medicoz</Navbar.Brand>
                     </Link>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ms-auto">
                             <Nav.Link as={Link} className="text-white text-uppercase" to="/home">Home</Nav.Link>
-                            <Nav.Link as={Link} className="text-white text-uppercase" to="/home#services">Services</Nav.Link>
+                            <Nav.Link>
+                                <NavHashLink className="text-white text-uppercase text-decoration-none" to="/home#services">Services</NavHashLink>
+                            </Nav.Link>
                             <Nav.Link as={Link} className="text-white text-uppercase" to="/about">About us</Nav.Link>
                             <Nav.Link as={Link} className="text-white text-uppercase" to="/pharmacy">Pharmacy</Nav.Link>
                             <Nav.Link as={Link} className="text-white text-uppercase" to="/contact">Contact</Nav.Link>

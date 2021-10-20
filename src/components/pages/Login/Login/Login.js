@@ -3,8 +3,8 @@ import useAuth from '../../../../hooks/useAuth';
 
 
 const Login = () => {
-    const { user, handleLoginWithEmail, signInUsingGoogle, takingEmail, takingPassword, error } = useAuth();
-    console.log(user)
+    const { handleLoginWithEmail, signInUsingGoogle, takingEmail, takingPassword, error } = useAuth();
+
     return (
         <div className="login-form quality">
             <div className="form">

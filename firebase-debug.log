@@ -1,0 +1,111 @@
+[debug] [2021-10-20T14:27:43.772Z] ----------------------------------------------------------------------
+[debug] [2021-10-20T14:27:43.774Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-10-20T14:27:43.774Z] CLI Version:   9.20.0
+[debug] [2021-10-20T14:27:43.774Z] Platform:      win32
+[debug] [2021-10-20T14:27:43.774Z] Node Version:  v14.18.0
+[debug] [2021-10-20T14:27:43.775Z] Time:          Wed Oct 20 2021 20:27:43 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-10-20T14:27:43.775Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-10-20T14:27:43.824Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-10-20T14:27:43.824Z] > authorizing via signed-in user (ashikshamim.007@gmail.com)
+[debug] [2021-10-20T14:27:43.824Z] [iam] checking project medicoz-clinic-and-hospital for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-10-20T14:27:43.826Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-10-20T14:27:43.826Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-10-20T14:27:44.104Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Wed, 20 Oct 2021 14:27:46 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-20T14:27:44.110Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/medicoz-clinic-and-hospital:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-10-20T14:27:45.796Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 20 Oct 2021 14:27:48 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1356","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-20T14:27:45.797Z] > refreshing access token with scopes: []
+[debug] [2021-10-20T14:27:45.797Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-10-20T14:27:46.073Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","date":"Wed, 20 Oct 2021 14:27:48 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-20T14:27:46.081Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/medicoz-clinic-and-hospital [none]
+[debug] [2021-10-20T14:27:46.621Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/medicoz-clinic-and-hospital 200
+[debug] [2021-10-20T14:27:46.621Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/medicoz-clinic-and-hospital {"projectId":"medicoz-clinic-and-hospital","projectNumber":"110272304046","displayName":"Medicoz clinic and hospital","name":"projects/medicoz-clinic-and-hospital","resources":{"hostingSite":"medicoz-clinic-and-hospital"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'medicoz-clinic-and-hospital'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2021-10-20T14:27:46.625Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-10-20T14:27:46.626Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-10-20T14:27:46.903Z] <<< HTTP RESPONSE 200 {"date":"Wed, 20 Oct 2021 14:27:49 GMT","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-20T14:27:46.908Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/medicoz-clinic-and-hospital/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2021-10-20T14:27:49.013Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 20 Oct 2021 14:27:51 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting[medicoz-clinic-and-hospital]: beginning deploy... 
+[info] i  hosting[medicoz-clinic-and-hospital]: found 20 files in build 
+[debug] [2021-10-20T14:27:49.163Z] > refreshing access token with scopes: []
+[debug] [2021-10-20T14:27:49.163Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-10-20T14:27:49.165Z] [hosting] hash cache [YnVpbGQ] stored for 20 files
+[debug] [2021-10-20T14:27:49.165Z] [hosting][hash queue][FINAL] {"max":136,"min":2,"avg":14.95,"active":0,"complete":20,"success":20,"errored":0,"retried":0,"total":20,"elapsed":141}
+[debug] [2021-10-20T14:27:49.422Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","date":"Wed, 20 Oct 2021 14:27:51 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-20T14:27:49.427Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/sites/medicoz-clinic-and-hospital/versions/7a5bbde21d4437c4:populateFiles [none]
+[debug] [2021-10-20T14:27:49.427Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/sites/medicoz-clinic-and-hospital/versions/7a5bbde21d4437c4:populateFiles {"files":{"/fakedata.json":"c9980ee58e248d3609fd134bfa2032de7fc14483a351a8d4a76dd4a1ee9a63f6","/fakeShop.json":"e50a6334cade9e4778460460296bdc692ecc201057f3f89a23debb73ba7e8e88","/favicon.ico":"dc73e8afebdf239fd211b524704d25d981fbf9f79351e5c157de8cc0c271b0cd","/manifest.json":"aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a","/robots.txt":"bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49","/asset-manifest.json":"72b8b649bb150a7d7ba303f761d1b764c61bd316375dd3eddcaae9fb44c4d8bb","/index.html":"ea66130b8ad7ed31688234701b71d82fc3dd05764742c84d5bf92543996df48f","/static/css/main.71fc9ef2.chunk.css":"5b2eb3b46fdf672cf6f500bfd5d807ef60f7ac72d6c3b29e637dea9f945453fa","/static/css/main.71fc9ef2.chunk.css.map":"c70839847416eb74c195699d8ef8d60331b00f6ac0718ecce8f1ea34cf958379","/static/js/2.c012398c.chunk.js.LICENSE.txt":"68b16697969801057d3e0deb105ae8509867a6ae2629d732d8100d885b17e4c5","/static/js/3.b4b42454.chunk.js":"2bd5eee63e4d3ce4412bb6b9c0b9f13d25300da35d0d82507eb2a3f6cb15b05a","/static/js/3.b4b42454.chunk.js.map":"78ad80b6f4842a3b93432c55854f1b698898f4cf10200eed3f7fa697919996bb","/static/js/main.8a737ae9.chunk.js":"75343f19f9c2d9e0acd89d5bc7216dd0a696a2b3838ca00d78315cc648f90701","/static/js/runtime-main.6b4d628d.js":"d7c22ad4209eea2e2290340335acd5ba6351e1e13f7c7afa618700bd726e9def","/static/js/runtime-main.6b4d628d.js.map":"ace424474ebc424033374f58ca1329da70b4013190c7af52015a938921aca75c","/static/js/main.8a737ae9.chunk.js.map":"85d1cff3c82fc7b47fbb99feaa4b9346414b451800b8d5bc4f7e0cd65dbde83b","/static/css/2.c1256375.chunk.css":"8acb4e081ecdb0935bf3d2f5e7464f0688948372639174fd7cdc40f5db24bb77","/static/js/2.c012398c.chunk.js":"11b78049c1f47ce34737d37ca4e5391b022466e372549208ee73981f9464898b","/static/css/2.c1256375.chunk.css.map":"5a1d7d871e2c5292e4d32d75371cb1b3fe971eaf6ebf47d38c9c730496e51f38","/static/js/2.c012398c.chunk.js.map":"3afbde461d1d5012bb24c4d39a2c846edba2ce67d847341342e61835fcc8fc38"}}
+[debug] [2021-10-20T14:27:52.332Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/sites/medicoz-clinic-and-hospital/versions/7a5bbde21d4437c4:populateFiles 200
+[debug] [2021-10-20T14:27:52.332Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/sites/medicoz-clinic-and-hospital/versions/7a5bbde21d4437c4:populateFiles {"uploadRequiredHashes":["85d1cff3c82fc7b47fbb99feaa4b9346414b451800b8d5bc4f7e0cd65dbde83b","72b8b649bb150a7d7ba303f761d1b764c61bd316375dd3eddcaae9fb44c4d8bb","75343f19f9c2d9e0acd89d5bc7216dd0a696a2b3838ca00d78315cc648f90701","11b78049c1f47ce34737d37ca4e5391b022466e372549208ee73981f9464898b","3afbde461d1d5012bb24c4d39a2c846edba2ce67d847341342e61835fcc8fc38","ea66130b8ad7ed31688234701b71d82fc3dd05764742c84d5bf92543996df48f"],"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/medicoz-clinic-and-hospital/versions/7a5bbde21d4437c4/files"}
+[debug] [2021-10-20T14:27:52.334Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/medicoz-clinic-and-hospital/versions/7a5bbde21d4437c4/files/85d1cff3c82fc7b47fbb99feaa4b9346414b451800b8d5bc4f7e0cd65dbde83b [none]
+[debug] [2021-10-20T14:27:52.334Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/medicoz-clinic-and-hospital/versions/7a5bbde21d4437c4/files/85d1cff3c82fc7b47fbb99feaa4b9346414b451800b8d5bc4f7e0cd65dbde83b [stream]
+[debug] [2021-10-20T14:27:52.335Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/medicoz-clinic-and-hospital/versions/7a5bbde21d4437c4/files/72b8b649bb150a7d7ba303f761d1b764c61bd316375dd3eddcaae9fb44c4d8bb [none]
+[debug] [2021-10-20T14:27:52.335Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/medicoz-clinic-and-hospital/versions/7a5bbde21d4437c4/files/72b8b649bb150a7d7ba303f761d1b764c61bd316375dd3eddcaae9fb44c4d8bb [stream]
+[debug] [2021-10-20T14:27:52.337Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/medicoz-clinic-and-hospital/versions/7a5bbde21d4437c4/files/75343f19f9c2d9e0acd89d5bc7216dd0a696a2b3838ca00d78315cc648f90701 [none]
+[debug] [2021-10-20T14:27:52.337Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/medicoz-clinic-and-hospital/versions/7a5bbde21d4437c4/files/75343f19f9c2d9e0acd89d5bc7216dd0a696a2b3838ca00d78315cc648f90701 [stream]
+[debug] [2021-10-20T14:27:52.338Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/medicoz-clinic-and-hospital/versions/7a5bbde21d4437c4/files/11b78049c1f47ce34737d37ca4e5391b022466e372549208ee73981f9464898b [none]
+[debug] [2021-10-20T14:27:52.338Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/medicoz-clinic-and-hospital/versions/7a5bbde21d4437c4/files/11b78049c1f47ce34737d37ca4e5391b022466e372549208ee73981f9464898b [stream]
+[debug] [2021-10-20T14:27:52.339Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/medicoz-clinic-and-hospital/versions/7a5bbde21d4437c4/files/3afbde461d1d5012bb24c4d39a2c846edba2ce67d847341342e61835fcc8fc38 [none]
+[debug] [2021-10-20T14:27:52.340Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/medicoz-clinic-and-hospital/versions/7a5bbde21d4437c4/files/3afbde461d1d5012bb24c4d39a2c846edba2ce67d847341342e61835fcc8fc38 [stream]
+[debug] [2021-10-20T14:27:52.340Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/medicoz-clinic-and-hospital/versions/7a5bbde21d4437c4/files/ea66130b8ad7ed31688234701b71d82fc3dd05764742c84d5bf92543996df48f [none]
+[debug] [2021-10-20T14:27:52.341Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/medicoz-clinic-and-hospital/versions/7a5bbde21d4437c4/files/ea66130b8ad7ed31688234701b71d82fc3dd05764742c84d5bf92543996df48f [stream]
+[debug] [2021-10-20T14:27:52.341Z] [hosting][populate queue][FINAL] {"max":3171,"min":3171,"avg":3171,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":3178}
+[debug] [2021-10-20T14:27:52.342Z] [hosting] uploads queued: 6
+[debug] [2021-10-20T14:27:54.045Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/medicoz-clinic-and-hospital/versions/7a5bbde21d4437c4/files/ea66130b8ad7ed31688234701b71d82fc3dd05764742c84d5bf92543996df48f 200
+[debug] [2021-10-20T14:27:54.045Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/medicoz-clinic-and-hospital/versions/7a5bbde21d4437c4/files/ea66130b8ad7ed31688234701b71d82fc3dd05764742c84d5bf92543996df48f [stream]
+[debug] [2021-10-20T14:27:54.258Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/medicoz-clinic-and-hospital/versions/7a5bbde21d4437c4/files/72b8b649bb150a7d7ba303f761d1b764c61bd316375dd3eddcaae9fb44c4d8bb 200
+[debug] [2021-10-20T14:27:54.258Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/medicoz-clinic-and-hospital/versions/7a5bbde21d4437c4/files/72b8b649bb150a7d7ba303f761d1b764c61bd316375dd3eddcaae9fb44c4d8bb [stream]
+[debug] [2021-10-20T14:27:54.282Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/medicoz-clinic-and-hospital/versions/7a5bbde21d4437c4/files/11b78049c1f47ce34737d37ca4e5391b022466e372549208ee73981f9464898b 200
+[debug] [2021-10-20T14:27:54.282Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/medicoz-clinic-and-hospital/versions/7a5bbde21d4437c4/files/11b78049c1f47ce34737d37ca4e5391b022466e372549208ee73981f9464898b [stream]
+[debug] [2021-10-20T14:27:54.996Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/medicoz-clinic-and-hospital/versions/7a5bbde21d4437c4/files/3afbde461d1d5012bb24c4d39a2c846edba2ce67d847341342e61835fcc8fc38 200
+[debug] [2021-10-20T14:27:54.996Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/medicoz-clinic-and-hospital/versions/7a5bbde21d4437c4/files/3afbde461d1d5012bb24c4d39a2c846edba2ce67d847341342e61835fcc8fc38 [stream]
+[debug] [2021-10-20T14:27:55.022Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/medicoz-clinic-and-hospital/versions/7a5bbde21d4437c4/files/75343f19f9c2d9e0acd89d5bc7216dd0a696a2b3838ca00d78315cc648f90701 200
+[debug] [2021-10-20T14:27:55.022Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/medicoz-clinic-and-hospital/versions/7a5bbde21d4437c4/files/75343f19f9c2d9e0acd89d5bc7216dd0a696a2b3838ca00d78315cc648f90701 [stream]
+[debug] [2021-10-20T14:27:56.359Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/medicoz-clinic-and-hospital/versions/7a5bbde21d4437c4/files/85d1cff3c82fc7b47fbb99feaa4b9346414b451800b8d5bc4f7e0cd65dbde83b 200
+[debug] [2021-10-20T14:27:56.359Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/medicoz-clinic-and-hospital/versions/7a5bbde21d4437c4/files/85d1cff3c82fc7b47fbb99feaa4b9346414b451800b8d5bc4f7e0cd65dbde83b [stream]
+[debug] [2021-10-20T14:27:56.359Z] [hosting][upload queue][FINAL] {"max":4026,"min":1711,"avg":2493.6666666666665,"active":0,"complete":6,"success":6,"errored":0,"retried":0,"total":6,"elapsed":4026}
+[info] +  hosting[medicoz-clinic-and-hospital]: file upload complete 
+[debug] [2021-10-20T14:27:56.360Z] [hosting] deploy completed after 7346ms
+[debug] [2021-10-20T14:27:56.361Z] [
+  {
+    "config": {
+      "public": "build",
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "site": "medicoz-clinic-and-hospital"
+    },
+    "site": "medicoz-clinic-and-hospital",
+    "version": "sites/medicoz-clinic-and-hospital/versions/7a5bbde21d4437c4"
+  }
+]
+[info] i  hosting[medicoz-clinic-and-hospital]: finalizing version... 
+[debug] [2021-10-20T14:27:56.362Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-10-20T14:27:56.362Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-10-20T14:27:56.626Z] <<< HTTP RESPONSE 200 {"date":"Wed, 20 Oct 2021 14:27:59 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-20T14:27:56.632Z] >>> HTTP REQUEST PATCH https://firebasehosting.googleapis.com/v1beta1/sites/medicoz-clinic-and-hospital/versions/7a5bbde21d4437c4?updateMask=status  
+ {"status":"FINALIZED"}
+[debug] [2021-10-20T14:27:58.438Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 20 Oct 2021 14:28:00 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-20T14:27:58.438Z] [hosting] finalized version for medicoz-clinic-and-hospital: {"name":"sites/medicoz-clinic-and-hospital/versions/7a5bbde21d4437c4","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2021-10-20T14:27:51.063582Z","createUser":{"email":"ashikshamim.007@gmail.com"},"finalizeTime":"2021-10-20T14:28:00.725532Z","finalizeUser":{"email":"ashikshamim.007@gmail.com"}}
+[info] +  hosting[medicoz-clinic-and-hospital]: version finalized 
+[info] i  hosting[medicoz-clinic-and-hospital]: releasing new version... 
+[debug] [2021-10-20T14:29:16.577Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/medicoz-clinic-and-hospital/releases?version_name=sites/medicoz-clinic-and-hospital/versions/7a5bbde21d4437c4  
+ {"message":null}

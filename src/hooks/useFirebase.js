@@ -71,7 +71,7 @@ const useFirebase = () => {
 
 
     const handleRegistration = e => {
-        // setIsLoading(true);
+        setIsLoading(true);
         e.preventDefault();
         createUserWithEmailAndPassword(auth, email, password)
             .then(result => {

@@ -5,20 +5,25 @@ import useAuth from '../../../../hooks/useAuth';
 
 // email & pass authentication 
 const Register = () => {
+    const { handleRegistration, takingName, handleEmailChange, signInUsingGoogle, handlePasswordChange, error } = useAuth();
 
-    const { handleRegistration, handleEmailChange, signInUsingGoogle, handlePasswordChange, error, signInw } = useAuth()
+
+
     return (
         <div className="login-form quality">
             <div className="form">
                 <h2>Create Account</h2>
                 <form onSubmit={handleRegistration}>
-                    <input onBlur={handleEmailChange} className="input" type="email" name="" id=""
+                    <input onChange={takingName} className="input" type="text"
+                        placeholder="Your Name" />
+                    <br />
+                    <input onBlur={handleEmailChange} className="input" type="email"
                         placeholder="Your Email" />
                     <br />
-                    <input onBlur={handlePasswordChange} className="input" type="password" name="" id=""
+                    <input onBlur={handlePasswordChange} className="input" type="password"
                         placeholder="Your Password" />
                     <br />
-                    <input className="input" type="password" name="" id=""
+                    <input className="input" type="password"
                         placeholder="Re-enter Password" />
                     <div className="text-danger">{error}</div>
                     <br />

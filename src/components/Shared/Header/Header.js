@@ -34,13 +34,7 @@ const Header = () => {
                         </Col>
                         <Col xs={12} md={6}>
                             <div className="d-flex p-3 user-div justify-content-end align-items-center" >
-                                <div className="me-3">
-                                    {
-                                        !userImg && <div className="user">
-                                            <h6>{user.uid}</h6>
-                                        </div>
-                                    }
-                                </div>
+
                                 <div className="me-3">
                                     {
                                         userImg &&
@@ -55,10 +49,17 @@ const Header = () => {
                                         <h6>{user.displayName}</h6>
                                     }
                                 </div>
+                                <div className="me-3">
+                                    {
+                                        !user.displayName && <div className="user">
+                                            <h6>{user.displayName}</h6>
+                                        </div>
+                                    }
+                                </div>
                                 <div>
                                     {
                                         user.email ?
-                                            <button onClick={logOut} className="px-2 btn btn-info text-white"> Logout</button> :
+                                            <button onClick={logOut} className="px-2 btn btn-danger text-white"> Logout</button> :
                                             <Link to="/login"><button className="px-3 text-white btn btn-info">Log In</button></Link>}
                                 </div>
                             </div>

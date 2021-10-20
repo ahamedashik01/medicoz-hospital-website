@@ -3,18 +3,17 @@ import useAuth from '../../../../hooks/useAuth';
 
 
 const Login = () => {
-
-    const { handleLoginWithEmail, takingEmail, takingPassword, error } = useAuth()
-    const { signInUsingGoogle } = useAuth()
+    const { user, handleLoginWithEmail, signInUsingGoogle, takingEmail, takingPassword, error } = useAuth();
+    console.log(user)
     return (
         <div className="login-form quality">
             <div className="form">
                 <h2>Login</h2>
                 <form onSubmit={handleLoginWithEmail} >
-                    <input onBlur={takingEmail} className="input" type="email" name="" id=""
+                    <input onBlur={takingEmail} className="input" type="email"
                         placeholder="Your Email" />
                     <br />
-                    <input onBlur={takingPassword} className="input" type="password" name="" id=""
+                    <input onBlur={takingPassword} className="input" type="password"
                         placeholder="Password" />
                     <div className="text-danger">{error}</div>
                     <br />

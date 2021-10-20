@@ -4,17 +4,18 @@ import { Link } from 'react-router-dom';
 import { useParams } from 'react-router';
 
 const ServiceDetails = () => {
+    const [services, setServices] = useState([]);
     const { id } = useParams();
 
-    const [services, setServices] = useState([]);
+    const found = services.find(e => e.id === id)
+
     useEffect(() => {
         fetch('/fakedata.json')
             .then(res => res.json())
             .then(data => setServices(data))
     }, []);
 
-    const found = services.find(e => e.id === id)
-    // const { title, detailImg, detailDes, conditions } = found;
+
 
     return (
         <div className="my-5 py-5 ">
